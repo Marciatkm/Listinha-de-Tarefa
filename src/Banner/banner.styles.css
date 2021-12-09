@@ -1,0 +1,36 @@
+.banner{
+    background: rgb(243, 199, 238);
+    width: 100%;
+}
+  
+  .banner div {
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 1rem 10rem;
+    background: rgb(243, 199, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .img{
+    background: rgb(243, 199, 238);
+      
+      background-size: cover;
+      background-position: center;
+     
+      height: 590px;
+      width: 100%;
+  }
+  h1{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+     
+      margin: 7px;
+      
+      color: blueviolet;
+      
+  }

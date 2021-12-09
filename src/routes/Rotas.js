@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from '../pages/Home'
-import ListPage from '../pages/ListPage'
+
+import Home from '../pages/Home/Home'
+import ListPage from '../pages/ListPage/ListPage'
 
 function Rotas() {
   return(

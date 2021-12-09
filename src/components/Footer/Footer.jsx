@@ -1,11 +1,13 @@
-import '../Footer/Footer.style.css'
+import { BsFillSuitHeartFill } from 'react-icons/bs'
+
+import '../Footer/footer.styles.css'
 
 const Footer = () => {
-    return(
-    <>
-    <p> <strong> <a class="s2">❤</a> Site desenvolvido pela aluna Márcia Tadakuma Reprograma"
-     <a class="s2">❤</a>  | © Copyright 2021 </strong></p>
-   </>
-    )
+  return(
+    <div className="footer">
+      <span> <BsFillSuitHeartFill size={16} color="rgb(196, 26, 26)"/><strong>  Site desenvolvido pela aluna Márcia Tadakuma Reprograma <BsFillSuitHeartFill size={16} color="rgb(196, 26, 26)"/> | © Copyright 2021 </strong> </span>
+    </div>
+  )
 }
+
 export default Footer
